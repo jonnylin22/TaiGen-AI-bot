@@ -16,3 +16,5 @@ Subsequent chatbot runs can be executed by the following:
 source .venv/bin/activate # Linux
 python main.py # https://localhost:5000
 ```
+
+Collaborators: Jonathan Lin, Chen Han Hong, Wang Chia Hsin, Chang Yen Ping
