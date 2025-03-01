@@ -414,7 +414,7 @@ def tavily_search(query, search_depth="basic", time_range=None, include_answer=N
     """
 
    # tavily_client = TavilyClient(userdata.get('TAVILY_API_KEY'))
-    tavily_client = TavilyClient("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")
+    tavily_client = TavilyClient("insert-tavily-api-key")
     search_params = {
       "query": query,
       "search_depth": search_depth,
@@ -473,8 +473,8 @@ import requests
 from bs4 import BeautifulSoup
 import praw
 reddit = praw.Reddit(
-    client_id="J51PzebYQY_vynvS7KUBOw",
-    client_secret="Kwf1A10ku-7VDRksvtS74-w3gCyPoQ",
+    client_id="insert-praw-client-id",
+    client_secret="insert-praw-client-secret",
     user_agent="chatbot"
 )
 
@@ -539,7 +539,7 @@ from flask_cors import CORS
 #secret = userdata.get('GOOGLE_API_KEY')          ### extract API key from notebook secret
 # Google API Key setup
 import os
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyCd8Xh2bygG4Ziux4hvMfbFuKs82hUYADA'
+os.environ['GOOGLE_API_KEY'] = 'insert-gemini-api-key'
 
 
 # store conversation history
