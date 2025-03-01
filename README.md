@@ -1,8 +1,7 @@
 # TaiGen-AI-bot
-CS Equity AI Team 7
+CS Equity AI Team 6
 Team members: 
 Jonathan Lin
 Chen Han Hong
-Sunny Wu
 Yen Ping Chang
 Chia Hsin Wang
