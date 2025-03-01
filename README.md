@@ -11,10 +11,3 @@ python main.py
 source .venv/bin/activate # Linux
 python main.py # https://localhost:5000
 ```
-
-# Windows Powershell
-python -m venv .venv
-.\.venv\Scripts\Activate
-pip install -r requirements.txt
-python main.py
-
